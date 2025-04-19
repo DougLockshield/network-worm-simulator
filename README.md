@@ -8,7 +8,7 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 
 ## 🧠 O que o worm faz
 
-- Pode escanear IPs da rede local (192.168.1.1 a 192.168.1.254)
+- Pode escanear IPs de uma rede local
 - Conecta-se via SMB usando usuário e senha pré-definidos
 - Copia o arquivo `payload.bat` para o destino
 - Executa remotamente o payload usando `PsExec`
