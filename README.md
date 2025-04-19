@@ -44,6 +44,7 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 ## ≈ Importante
 
 Este projeto é uma **PoC (prova de conceito)** para fins de aprendizado em segurança da informação demonstrada no vídeo: https://www.youtube.com/watch?v=goxDkvmmxJQ
+
 Nenhuma funcionalidade é destrutiva ou maliciosa — o objetivo é mostrar **como a propagação automática funciona**.
 
 ---
