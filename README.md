@@ -20,7 +20,6 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 
 - `worm.bat` – Script principal de propagação
 - `payload.bat` – Simula o impacto do malware (exemplo: abrir a calculadora)
-- `run_silent.vbs` – Opcional, para executar o payload local de forma oculta
 - `psexec.exe` – Placeholder do PsExec (substitua pela versão oficial da Sysinternals)
 
 ---
