@@ -8,7 +8,7 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 
 ## 🧠 O que o worm faz
 
-- Pode escanear IPs da rede local
+- Pode escanear IPs da rede local (192.168.1.1 a 192.168.1.254)
 - Conecta-se via SMB usando usuário e senha pré-definidos
 - Copia o arquivo `payload.bat` para o destino
 - Executa remotamente o payload usando `PsExec`
@@ -22,6 +22,17 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 - `payload.bat` – Simula o impacto do malware (exemplo: abrir a calculadora)
 - `run_silent.vbs` – Opcional, para executar o payload local de forma oculta
 - `psexec.exe` – Placeholder do PsExec (substitua pela versão oficial da Sysinternals)
+
+---
+
+## 📥 Baixar o PsExec (obrigatório)
+
+Este projeto utiliza o [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec), uma ferramenta oficial da Sysinternals/Microsoft para execução remota.
+
+🔗 Baixe aqui:  
+https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
+
+Após baixar, coloque o `PsExec.exe` na mesma pasta dos arquivos do projeto.
 
 ---
 
@@ -41,10 +52,9 @@ Este projeto demonstra, de forma **educativa e controlada**, como um worm pode s
 
 ---
 
-## ≈ Importante
+## 🛡️ Importante
 
-Este projeto é uma **PoC (prova de conceito)** para fins de aprendizado em segurança da informação demonstrada no vídeo: https://youtu.be/goxDkvmmxJQ
+Este projeto é uma **PoC (prova de conceito)** para fins de aprendizado demonstrada no vídeo:  
+📺 https://youtu.be/goxDkvmmxJQ
 
 Nenhuma funcionalidade é destrutiva ou maliciosa — o objetivo é mostrar **como a propagação automática funciona**.
-
----
